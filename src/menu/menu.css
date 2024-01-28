@@ -1,0 +1,84 @@
+.menu-grid{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 180px 0;
+    border-radius: 20px;
+    box-shadow: rgba(31, 33, 34, 0.3) 0px 2px 3px 0px, rgba(31, 33, 34, 0.15) 0px 4px 12px 4px;
+}
+
+.menu-flex:hover {
+    transform: translate(-2px,-3px);
+    transition: 0.4s;
+}
+
+.menu-flex img {
+    width: 70%;
+}
+
+.menu-flex a {
+    font-size: 18px;
+    border: 0.1px solid #594545;
+    border-radius: 20px;
+    background-color: #fcf3e1;
+    margin: 35px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.menu-flex a:hover {
+    color: #FFF8EA;
+    background-color: #594545;
+}
+
+.menu-flex h2 {
+    margin: 20px 0 0 0 ;
+    font-size: 30px;   
+}
+
+.menu1{
+    margin: 260px 0 170px 0;
+    transition: 0.4s ease-in;
+}
+
+.menu1:hover{
+    transform: translate(0px,-20px);
+    transition: 0.4s ease-in;
+}
+
+.menu2{
+    margin: 180px 0 260px 0;
+    transition: 0.4s ease-in;
+}
+
+.menu2:hover{
+    transform: translate(0px,20px);
+    transition: 0.4s ease-in;
+}
+
+.menu3{
+    margin: 260px 0 170px 0;
+    transition: 0.4s ease-in;
+}
+
+.menu3:hover{
+    transform: translate(0px,-20px);
+    transition: 0.4s ease-in;
+}
+
+.menu4{
+    margin: 180px 0 260px 0;
+        transition: 0.4s ease-in;
+}
+
+.menu4:hover{
+    transform: translate(0px,20px);
+    transition: 0.4s ease-in;
+}
